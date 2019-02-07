@@ -1,0 +1,8 @@
+[submodule "api/api"]
+	path = api/api
+	url = https://github.com/directus/api.git
+	branch = build
+[submodule "app/app"]
+	path = app/app
+	url = https://github.com/directus/app.git
+	branch = build
