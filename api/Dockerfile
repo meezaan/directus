@@ -4,6 +4,9 @@ FROM vesica/php72:latest
 RUN rm -rf /var/www/html
 COPY api /var/www
 COPY config.php /var/www/config.php
+
+VOLUME /var/www/public/uploads
+
 RUN chown -R www-data:www-data /var/www
 
 # Run composer
@@ -19,4 +22,4 @@ ENV MYSQL_DATABASE "directus"
 ENV MYSQL_HOST "directus-db"
 ENV FROM_EMAIL_ADDRESS "you@domain.com"
 
-#CMD ["startup"]
+CMD ["startup"]
