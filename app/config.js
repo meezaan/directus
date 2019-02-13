@@ -7,7 +7,7 @@
     // Don't forget to add the API environment!
     api: {
       //"https://demo-api.directus.app/_/": "Directus Demo API"
-      $APIs
+        "##API_URL##" : "##API_NAME##"
     },
 
     // Allow the user to connect to any API by entering a URL in a text field

@@ -4,8 +4,9 @@
 ###########################################################################
 ###########################################################################
 # Move config file to the right place.
+rm -rf /var/www/html
 ln -sf /var/www/public /var/www/html
-cp -rf config.php config/api.php
+cp -rf /var/www/config.php /var/www/config/api.php
 
 ###### DIRECTUS SETUP ENDS - Don't mess with stuff below this line #########
 ###########################################################################
