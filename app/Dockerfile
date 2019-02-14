@@ -10,6 +10,9 @@ RUN chown -R www-data:www-data /var/www
 COPY startup.sh /usr/local/bin/startup
 RUN chmod 755 /usr/local/bin/startup
 
-ENV APIS "http:api1,http://api2"
+ENV API_URL "http:api1,http://api2"
+ENV API_URL2 "http:api1,http://api2"
+ENV API_NAME "http:api1,http://api2"
+ENV API_NAME2 "http:api1,http://api2"
 
 CMD ["startup"]
