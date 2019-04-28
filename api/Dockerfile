@@ -1,4 +1,4 @@
-FROM vesica/php72:latest
+FROM quay.io/vesica/php72:latest
 
 # Copy files and set permisions
 COPY api /var/www
