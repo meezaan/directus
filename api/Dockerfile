@@ -2,7 +2,7 @@ FROM quay.io/vesica/php72:latest
 
 # Copy files and set permisions
 COPY api /var/www
-COPY .htaccess /var/www/html/.htaccess
+COPY htaccess /var/www/public/.htaccess
 COPY config.php /var/www/config.php
 
 # VOLUME /var/www/public/uploads
