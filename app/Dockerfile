@@ -3,7 +3,7 @@ FROM quay.io/vesica/php72:latest
 # Copy files and set permisions
 RUN rm -rf /var/www/html/*
 COPY app /var/www/html
-COPY htaccess /var/www/html/.htaccess
+COPY htaccess.txt /var/www/html/.htaccess
 COPY config.js /var/www/config.js
 RUN chown -R www-data:www-data /var/www
 
