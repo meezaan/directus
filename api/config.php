@@ -39,10 +39,10 @@ return [
         //    'adapter' => 'filesystem',
         //    'path' => '../cache/', // relative to the api directory
         // ],
-        // 'pool' => [
-        //    'adapter'   => 'memcached',
-        //    'host'      => 'localhost',
-        //    'port'      => 11211
+        'pool' => [
+            'adapter'   => 'memcached',
+            'host'      => 'memcached',
+            'port'      => 11211
         // ],
         // 'pool' => [
         //    'adapter'   => 'redis',
