@@ -43,7 +43,7 @@ return [
             'adapter'   => 'memcached',
             'host'      => 'memcached',
             'port'      => 11211
-        // ],
+        ],
         // 'pool' => [
         //    'adapter'   => 'redis',
         //    'host'      => 'localhost',
