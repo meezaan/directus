@@ -41,8 +41,8 @@ return [
         // ],
         'pool' => [
             'adapter'   => 'memcached',
-            'host'      => 'memcached',
-            'port'      => 11211
+            'host'      => getenv('MEMCACHED_HOST'),
+            'port'      => getenv('MEMCACHED_PORT')
         ],
         // 'pool' => [
         //    'adapter'   => 'redis',
