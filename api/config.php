@@ -27,7 +27,7 @@ return [
     ],
 
     'cache' => [
-        'enabled' => false,
+        'enabled' => true,
         'response_ttl' => 3600, // seconds
         // 'pool' => [
         //    'adapter' => 'apc'
